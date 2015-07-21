@@ -1,0 +1,60 @@
+{
+  "disallowEmptyBlocks": true,
+  "disallowImplicitTypeConversion": ["string"],
+  "disallowKeywords": ["with"],
+  "disallowKeywordsOnNewLine": ["else"],
+  "disallowMixedSpacesAndTabs": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowNodeTypes": ["LabeledStatement"],
+  "disallowQuotedKeysInObjects": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "esnext": true, // uses jscs-dev/esprima-harmony
+  "esprima": "./node_modules/esprima-fb", // need to npm install esprima or esprima-fb, etc
+  "excludeFiles": [],
+  "requireAlignedObjectValues": "ignoreLineBreak",
+  "requireCapitalizedConstructors": true,
+  "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
+  "requireDotNotation": true,
+  "requireMatchingFunctionName": true,
+  "requireObjectKeysOnNewLine": true,
+  "requirePaddingNewLinesAfterBlocks": true,
+  "requirePaddingNewLinesBeforeExport": true,
+  "requirePaddingNewLinesInObjects": true,
+  "requirePaddingNewLineAfterVariableDeclaration": true,
+  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+  "requirePaddingNewlinesBeforeKeywords": [
+    "do",
+    "for",
+    "if",
+    "switch",
+    "default",
+    "case",
+    "try",
+    "catch",
+    "void",
+    "while",
+    "with",
+    "return",
+    "function"
+  ],
+  "requireSpaceBeforeObjectValues": true,
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInsideArrayBrackets": {
+    "allExcept": [ "[", "]", "{", "}" ]
+  },
+  "requireSpacesInFunction": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "validateNewlineAfterArrayElements": true,
+  "validateIndentation": 2,
+  "validateParameterSeparator": ", ",
+  "validateQuoteMarks": "'"
+}

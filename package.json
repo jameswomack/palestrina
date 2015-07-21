@@ -1,0 +1,33 @@
+{
+  "name": "palestrina",
+  "version": "1.0.0",
+  "description": "Glorious string utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/palestrina.git"
+  },
+  "keywords": [
+    "string",
+    "utilities"
+  ],
+  "author": "james@womack.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameswomack/palestrina/issues"
+  },
+  "homepage": "https://github.com/jameswomack/palestrina#readme",
+  "dependencies": {
+    "keykey": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.1",
+    "esprima-fb": "^15001.1.0-dev-harmony-fb",
+    "jscs": "jscs-dev/node-jscs",
+    "mocha": "^2.2.5",
+    "rewire": "^2.3.4"
+  }
+}
